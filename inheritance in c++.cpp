@@ -10,6 +10,8 @@ class employee{
 		int empid=0;
 		int salary=0;
 		//char empname=0;
+		
+		cout<<"constructor invoked"<<endl;
 	}
 	public:
 		void getdata()
