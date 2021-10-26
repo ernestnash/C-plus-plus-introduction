@@ -4,6 +4,13 @@ class employee{
 	private:
 		int empid,salary;
 		char empname[20];
+	employee()
+		//constructor
+	{
+		int empid=0;
+		int salary=0;
+		//char empname=0;
+	}
 	public:
 		void getdata()
 		{
@@ -23,6 +30,7 @@ class employee{
 		}
 };
 class manager:employee
+//inherit from class employee
 {
 	private:
 		int bonus;
@@ -30,17 +38,20 @@ class manager:employee
 			void getdata()
 			{
 				employee::getdata();
+				//override
 				cout<<"enter bonus: ";
 				cin>>bonus;
 			}
 			void display_data()
 			{
 				employee::display_data();
+				//override
 				cout<<"bonus is: "<<bonus<<endl;
 				cout<<" "<<endl;
 			}
 };
 class nonmanager:employee
+//inherit data from class employee
 {
  	private:
 		int overtime;
@@ -48,12 +59,14 @@ class nonmanager:employee
 			void getdata()
 			{
 				employee::getdata();
+				//override
 				cout<<"enter overtime amount: ";
 				cin>>overtime;
 			}
 			void display_data()
 			{
 				employee::display_data();
+				//override
 				cout<<"oertime is: "<<overtime<<endl;
 				cout<<" "<<endl;
 			}
