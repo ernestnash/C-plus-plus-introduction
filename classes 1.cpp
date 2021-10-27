@@ -15,6 +15,8 @@ class student{
 		int average = 0;
 		//char grade = 0;
 		//char stdename = 0;
+		
+		cout<<"constructor invoked"<<endl;
 	}
 		void setdata()
 		{
