@@ -6,6 +6,16 @@ class student{
 		int stdno,subj1,subj2,total,average;
 		char grade,stdname[20];
 	public:
+	student()
+	{
+		int stdno = 0;
+		int subj1 = 0;
+		int subj2 = 0;
+		int total = 0;
+		int average = 0;
+		//char grade = 0;
+		//char stdename = 0;
+	}
 		void setdata()
 		{
 			cout<<"enter student number: ";
