@@ -1,2 +1,2 @@
-# C-introduction
-introduction to object oriented programming with C++
+# C++ -introduction
+An introduction to object oriented programming with C++
