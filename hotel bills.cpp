@@ -5,6 +5,15 @@ class order{
 		int oder_no,custno,price,quantity,bill;
 		char item_name[20];
 	public:
+		order(){
+			int oder_no: 0;
+			int custno: 0;
+			int price: 0;
+			int quantity: 0;
+			int bill: 0;
+			//char item_no: 0;
+			cout<<"constructor invoked"<<endl;
+		}
 		void getdata()
 		{
 			cout<<"enter oder no: ";
