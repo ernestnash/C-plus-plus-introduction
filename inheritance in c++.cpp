@@ -4,15 +4,15 @@ class employee{
 	private:
 		int empid,salary;
 		char empname[20];
+	//constructor
 	employee()
-		//constructor
 	{
 		int empid=0;
 		int salary=0;
 		//char empname=0;
 		
 		cout<<"constructor invoked"<<endl;
-	}
+	}//constructor
 	public:
 		void getdata()
 		{
