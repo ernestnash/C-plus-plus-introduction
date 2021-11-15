@@ -1,9 +1,11 @@
 #include<iostream>
 using namespace std;
+
 int main()
 {
 	int age;
 	char name[20];
+	
 	cout<<"enter your name: ";
 	cin>>name;
 	
